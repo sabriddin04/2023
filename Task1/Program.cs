@@ -1,0 +1,26 @@
+﻿var circle=new Circle(2.5,"red",true);
+System.Console.WriteLine(circle.GetPerimetr());
+System.Console.WriteLine(circle.GetArea());
+System.Console.WriteLine(circle.GetRadius());
+System.Console.WriteLine(circle.GetColor());
+System.Console.WriteLine(circle.ToString());
+System.Console.WriteLine(circle.IsFilled());
+System.Console.WriteLine("----------------------------------------");
+var rectangle=new Rectangle(2.0,3.0,"blue",false);
+System.Console.WriteLine(rectangle.GetArea());
+System.Console.WriteLine(rectangle.GetPerimetr());
+System.Console.WriteLine(rectangle.GetColor());
+System.Console.WriteLine(rectangle.GetLength());
+System.Console.WriteLine(rectangle.GetWidth());
+System.Console.WriteLine(rectangle.IsFilled());
+System.Console.WriteLine(rectangle.ToString());
+
+System.Console.WriteLine("----------------------------------------");
+var square =new Square(2.1,"yellow",true);
+System.Console.WriteLine(square.GetArea());
+System.Console.WriteLine(square.GetPerimetr());
+System.Console.WriteLine(square.GetColor());
+System.Console.WriteLine(square.GetLength());
+System.Console.WriteLine(square.GetWidth());
+System.Console.WriteLine(square.IsFilled());
+System.Console.WriteLine(square.ToString());
